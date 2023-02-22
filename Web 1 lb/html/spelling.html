@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css/spelling.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-nav">
+          <nav class="nav">
+            <ul class="nav-list">
+              <li class="dropdown">
+                <img
+                  src="../image/alignright.svg"
+                  alt=""
+                  class="logo"
+                  width="50px"
+                  height="50px"
+                />
+                <div class="dropdown-content">
+                  <img
+                    src="../image/photo.jpeg"
+                    alt=""
+                    width="200px"
+                    height="200px"
+                  />
+                  Student CHNU 207 group System analis
+                </div>
+              </li>
+              <li class="nav-item">
+                <a href="index.html" class="nav-link">MAIN</a>
+              </li>
+              <li class="nav-item">
+                <a href="calc.html" class="nav-link">Calculator</a>
+              </li>
+              <li class="nav-item">
+                <a href="spelling.html" class="nav-link">Spelling</a>
+              </li>
+              <li class="nav-item">
+                <a href="word.html" class="nav-link">Symbols</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <div class="col-sm-4">
+      <h3>Spelling of currency</h3>
+      <label for="inp_1">Input number:</label>
+      <input type="text" class="form-control" id="inp_1" />
+      <br />
+      <button onclick="repeat()" class="btn btn-primary">
+        Perform actions
+      </button>
+      <br />
+      Result: <span id="result_repeat"></span><br />
+    </div>
+    <script src="/script.js/spelling.js"></script>
+  </body>
+</html>
